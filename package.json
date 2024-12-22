@@ -1,0 +1,36 @@
+{
+  "name": "opti",
+  "version": "1.0.0",
+  "description": "A utility package for debounce and throttle functions",
+  "main": "index.js",
+  "keywords": [
+    "debounce",
+    "throttle",
+    "utilities",
+    "react",
+    "typescript"
+  ],
+  "author": "Attaullah Khan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Attaullahkhanit/opti"
+  },
+  "scripts": {
+    "test": "jest --config ./jest.config.ts"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.0",
+    "@types/jest": "^29.5.14",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
