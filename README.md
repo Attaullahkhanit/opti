@@ -1,5 +1,5 @@
-# opti
-`opti` is a lightweight utility library that helps optimize the frequency of function 
+# opti-freq
+`opti-freq` is a lightweight utility library that helps opti-freqmize the frequency of function 
 executions, enhancing application performance. It provides efficient implementations for debounce and throttle functions, making it easier to handle events like typing, scrolling, or other
 repetitive user interactions without degrading performance.
 
@@ -8,7 +8,7 @@ repetitive user interactions without degrading performance.
 You can install the package via npm:
 
 ```bash
-npm install opti
+npm install opti-freq
 ```
 # Features
 ### Debounce: 
@@ -24,7 +24,7 @@ Here are some examples of how to use debounce and throttle in a React.js applica
 # Debounce Function
 
 ```javascript
-import { debounce } from 'opti';
+import { debounce } from 'opti-freq';
 
 function App() {
   const handleInputChange = debounce((event) => {
@@ -55,7 +55,7 @@ API calls.
 The `throttle` function ensures a function is executed at most once during a specified time interval.
 
 ```javascript 
-import { throttle } from 'opti';
+import { throttle } from 'opti-freq';
 
 function App() {
   const handleScroll = throttle(() => {
@@ -113,7 +113,7 @@ A new throttled function that executes func at most once per interval.
 ## Debounce
 #### Search Bar Input:
 When a user types in a search bar, debounce can delay triggering the search API
-call until the user pauses typing. This reduces redundant API calls and optimizes performance.
+call until the user pauses typing. This reduces redundant API calls and opti-freqmizes performance.
 
 ## Throttle
 #### Scroll Event Listener:
