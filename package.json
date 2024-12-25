@@ -1,6 +1,6 @@
 {
   "name": "opti-freq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility package for debounce and throttle functions",
   "main": "index.js",
   "keywords": [
